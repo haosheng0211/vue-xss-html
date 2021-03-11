@@ -1,0 +1,16 @@
+{
+  "name": "vue-xss-html",
+  "version": "1.0.1",
+  "main": "dist/vue-currency-format.common.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "vue-cli-service build --target lib --name vue-xss-html ./src/index.js"
+  },
+  "dependencies": {
+    "xss": "1.0.8"
+  },
+  "devDependencies": {
+    "@vue/cli": "^4.5.11",
+    "@vue/cli-service-global": "^4.5.11"
+  }
+}
